@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./../js/contactsController.js"></script>
+	</head>
+	<body>
+	<h1>Enter your contact details </h1>
+
+	<form>
+		<label for="firstName" >First Name</label>
+		<input type="text" id="firstName" name="inputField" placeholder="Enter First Name"/>
+
+		<br/>
+		<label for="lastName" >Last Name</label>
+		<input type="text" id="lastName" name="inputField" placeholder="Enter Last Name"/>
+		<br/>
+		<label for="emailAddress" >Email</label>
+		<input type="text" id="emailAddress" name="inputField" placeholder="Enter Email"/>
+		<br/>
+		<label for="telephoneNumber">Telephone</label>
+		<input type="text" id="telephoneNumber" name="inputField" placeholder="Enter Telephone"/>
+		<br/>
+
+		<input type="button" id="saveButton" name="save" value="Save" />
+
+		<input type="button" id="resetButton" value="Reset" onclick="resetValues();" />
+	</form>
+
+	</body>
+</html>
